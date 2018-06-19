@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz 2</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+
+        <form action="" method="get">
+            <div>
+                <label for="fname">First Name: </label>
+                <input id="fname" name="fname" placeholder="First Name" type="text" required>
+
+                <label for="lname">Last Name: </label>
+                <input id="lname" name="lname" placeholder="Last Name" type="text" required>
+            </div>
+
+            <div>
+                <label for="rmale">Male: </label>
+                <input id="rmale" name="radioSex" type="radio" value="Male">
+                <label for="rfemale">Female: </label>
+                <input id="rfemale" name="radioSex" type="radio" value="Female">
+                <label for="rother">Other: </label>
+                <input id="rother" name="radioSex" type="radio" value="Other">
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" name="email" placeholder="Email" type="email" required>
+
+                <label for="password">Password: </label>
+                <input id="password" name="password" placeholder="Password" type="password" pattern=".{6}" required title="Introduce 6 characters or more">
+            </div>
+
+            <div>
+                <label for="birthdayDiv">Birthday: </label>
+
+                <span id="birthdayDiv">
+                    <select title="Month" name="month">
+                        <option>Month</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+
+                    <select title="Day" name="day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                    </select>
+
+                    <select title="Year" name="year">
+                        <option>Year</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                    </select>
+                </span>
+            </div>
+
+            <div>
+                <label for="cterms">I agree with the terms and conditions</label>
+                <input id="cterms" name="terms" type="checkbox">
+            </div>
+
+            <br>
+
+            <input type="submit" value="Go">
+        </form>
+    </body>
+</html>

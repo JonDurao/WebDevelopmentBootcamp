@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intermediate HTML</title>
+    </head>
+    <body>
+        <p>-------------------------------------------------------------------------------------------------------------</p>
+
+        <h1>Tables</h1>
+
+        <!-- HTML_Section 4 -->
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jon</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>21</td>
+            </tr>
+        </table>
+
+        <p>------------------HTML5------------------</p>
+
+        <!-- HTML_Section 5 -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Jon</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p>-------------------------------------------------------------------------------------------------------------</p>
+
+        <h1>Forms</h1>
+
+        <!--<input type="color">
+        <input type="text" placeholder="Username">
+        <input type="radio">
+        <input type="password" placeholder="Password">
+        <input type="submit">-->
+
+        <h3>Login Form</h3>
+
+        <!--action: where the from sends the data-->
+        <!--method: what HTTP method we use-->
+
+        <form action="" method="get">
+            <label for="input__username">Username:</label>
+            <input id="input__username" name="username" type="text" placeholder="Username" required>
+
+            <label>
+                Password
+                <input name="password" type="password" placeholder="Password" required>
+            </label>
+
+            <label for="input__email">Email:</label>
+            <input id="input__email" name="email" type="email" placeholder="Email" required>
+
+            <input type="submit">
+        </form>
+
+        <p>-------------------------------------------------------------------------------------------------------------</p>
+
+        <h1>Dropdowns, Radio buttons and Text Area</h1>
+
+        <p>Dogs or Cats?</p>
+
+        <form action="http://www.google.com/" method="get">
+            <label for="dogs">Dogs: </label>
+            <input id="dogs" name="petChoice" type="radio" value="dogs">
+
+            <label for="cats">Cats: </label>
+            <input id="cats" name="petChoice" type="radio" value="cats">
+
+            <input type="submit" value="Go">
+        </form>
+        <br>
+        <p>Favourite Color?</p>
+
+        <form action="http://www.google.com/" method="get">
+            <label for="colores">Colors</label>
+
+            <select id="colores" name="color">
+                <option value="azul">Blue</option>
+                <option value="verde">Green</option>
+                <option value="rojo">Red</option>
+            </select>
+
+            <input type="submit" value="Go">
+        </form>
+
+        <form action="http://www.google.com/" method="get">
+            <label for="lorem">Lorem</label>
+            <textarea id="lorem" rows="5" cols="5" name="lorem"></textarea>
+
+            <input type="submit" value="Go">
+        </form>
+
+    </body>
+</html>
