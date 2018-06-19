@@ -1,0 +1,90 @@
+/*Intro*/
+
+#introH1 {
+    color: darkblue;
+}
+
+#introH4 {
+    color: dodgerblue;
+}
+
+.introLi {
+    background-color: darkslateblue;
+    color: lightblue;
+}
+
+#introUl {
+    background-color: blueviolet;
+}
+
+/*CSS Colors*/
+
+h1.cssColors {
+    background-color: #000000;
+}
+
+h1.cssColors.rgb {
+    background-color: rgb(0, 0, 0);
+}
+
+h1.cssColors.rgba {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+h2.cssColors {
+    background-color: #4B0082;
+}
+
+h2.cssColors.rgb {
+    background-color: rgb(100, 0, 150);
+}
+
+h2.cssColors.rgba {
+    background-color: rgba(100, 0, 150, .2);
+}
+
+.cssColors.lightText {
+    color: #ffffff;
+}
+
+.cssColors.rgb {
+    color: #ffffff;
+}
+
+h3.cssColors {
+    background-color: #FF1493;
+}
+
+h3.cssColors.rgb {
+    background-color: rgb(240, 0, 100);
+}
+
+h3.cssColors.rgba {
+    background-color: rgba(240, 0, 100, .2);
+}
+
+/*CSS Background and Border*/
+
+h4.cssBackDiv {
+    background-color: rgba(200, 200, 85, .6);
+}
+
+h4.cssBackDiv.imageBackground {
+    background-image: url("https://sputnikmusic.com/blog/wp-content/uploads/08.-Burial-Untrue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.cssBackDiv {
+    height: 200px;
+    width: 200px;
+
+    /*border-color: #4B0082;
+    border-style: solid;
+    border-width: 2px;*/
+    border: 2px solid #4B0082;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .1);
+}
