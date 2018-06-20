@@ -1,0 +1,50 @@
+.separator {
+    background-color: black;
+    height: .5em;
+    width: inherit;
+}
+
+body {
+    font-size: 10px;
+    /*line-height: 1px;*/
+}
+
+h1 {
+    font-size: 6.0em;
+}
+
+/*Fonts Demo*/
+
+h1.fontDemo {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+p.fontDemo {
+    font-family: Arial, serif;
+    font-size: 2.0em;
+    line-height: 2.0em;
+}
+
+span.fontDemo {
+    font-size: 2.0em;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+/*Custom Font*/
+
+h1.customFont {
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+}
+
+p.customFont {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+span.customFont {
+    font-weight: 600;
+}

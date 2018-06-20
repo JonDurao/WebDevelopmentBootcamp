@@ -1,5 +1,11 @@
 /*Intro*/
 
+.separator {
+    background-color: black;
+    height: .5em;
+    width: inherit;
+}
+
 #introH1 {
     color: darkblue;
 }
@@ -87,4 +93,22 @@ div.cssBackDiv {
 
 body {
     background-color: rgba(0, 0, 0, .1);
+}
+
+/*CSS Specificity and Cascade*/
+
+ul.cssSpecificityCascade {
+    color: #4B0082;
+}
+
+.cssSpecificityCascade li {
+    color: #FF1493;
+}
+
+.cssSpecificityCascade li.highlight {
+    color: yellow;
+}
+
+.cssSpecificityCascade li#uno {
+    color: chocolate;
 }

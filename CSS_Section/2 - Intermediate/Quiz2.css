@@ -1,0 +1,41 @@
+#blog {
+    border: 15px #BDC3C7 solid;
+    margin: 20px auto;
+    max-width: 700px;
+    width: 80%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+.entry {
+    margin: 20px;
+}
+
+.date {
+    color: #3498DB;
+    font-size: 2em;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.title_entry {
+    color: #2c3e50;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h2 + p {
+    border-left: 5px #BDC3C7 solid;
+    padding-left: 5px;
+}
+
+/* Gradient transparent - color - transparent */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(150, 150, 150, 0), rgba(150, 150, 150, 0.75), rgba(0, 0, 0, 0));
+}
