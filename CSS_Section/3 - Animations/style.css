@@ -1,0 +1,134 @@
+.separator {
+    background-color: black;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+h1.FirstAnimation:hover {
+    background-color: pink;
+}
+
+input.FirstAnimation:focus {
+    background-color: orange;
+}
+
+button.FirstAnimation:hover {
+    color: deeppink;
+}
+
+button.FirstAnimation:focus {
+    background-color: #1c7430;
+    border-radius: 10px;
+}
+
+button.FirstAnimation:active {
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+
+p.FirstAnimation:active {
+    background-color: yellow;
+}
+
+button.demoAnimationOne {
+    position: relative;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 6px darkred;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 25px 80px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+button.demoAnimationOne:hover {
+    box-shadow: 0 4px darkred;
+    top: 2px;
+}
+
+button.demoAnimationOne:focus {
+    box-shadow: 0 2px darkred;
+    background-color: darkorange;
+    color: black;
+    top: 4px;
+}
+
+button.demoAnimationOne:active {
+    box-shadow: 0 0 darkred;
+    background-color: darkred;
+    top: 6px;
+}
+
+p.FirstTransform {
+    border: 5px darkred solid;
+    height: 50px;
+    width: 50px;
+    background-color: #FF1493;
+    transform-origin: 0 0;
+}
+
+p.FirstTransform.moveRight {
+    transform: translateX(20px);
+}
+
+p.FirstTransform.moveRight:active {
+    transform: translate(100px);
+}
+
+p.FirstTransform.moveDown:active {
+    transform: translateY(-100px);
+}
+
+p.FirstTransform.scaleUp {
+    margin: 50px;
+    transform: scale(2, .5);
+    transform-origin: right top;
+}
+
+p.FirstTransform.scaleDown {
+    margin: 50px;
+    transform: scaleX(3);
+    transform-origin: left;
+}
+
+p.FirstTransform.rotateLeft {
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+
+p.FirstTransform.rotateRight {
+    transform: rotate(-45deg);
+    transform-origin: left top;
+}
+
+p.demoTransition {
+    height: 100px;
+    width: 100px;
+    background-color: #4B0082;
+    color:white;
+}
+
+p.demoTransition:active {
+    transform: scale(3, 3) rotate(90deg);
+    -moz-transform: scale(3, 3) rotate(-90deg);
+    transform-origin: left top;
+    opacity: 0.1;
+}
+
+p.demoTransition.animatedDemo {
+    transition-property: transform, opacity;
+    transition-duration: 2s, 2s;
+    transition-delay: .5s, 4s;
+    transition-timing-function: cubic-bezier(0.165, -0.600, 0.975, -0.600);
+    transform-origin: left top;
+}
+
+.animatedDemoShorthand {
+    /*property duration time-function delay*/
+    transition: background-color 2.5s ease-in 1s;
+}
